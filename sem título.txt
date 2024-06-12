@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal sobre Animes e RPG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .anime-img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal sobre Animes e RPG</h1>
+    </header>
+    <div class="container">
+        <section id="about-animes">
+            <h2>Sobre Animes</h2>
+            <p>Os animes são uma forma de animação originária do Japão, que conquistou fãs ao redor do mundo por suas histórias envolventes, personagens cativantes e estilos de arte únicos. Alguns dos animes mais populares incluem "Naruto", "One Piece", "Dragon Ball", e muitos outros.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Jujutsu_Kaisen_key_visual.jpg/220px-Jujutsu_Kaisen_key_visual.jpg" alt="Jujutsu Kaisen" class="anime-img">
+        </section>
+        <section id="favorite-animes">
+            <h2>Meus Animes Favoritos</h2>
+            <ul>
+                <li>Jujutsu Kaisen</li>
+                <li>Attack on Titan</li>
+                <li>Fullmetal Alchemist: Brotherhood</li>
+                <li>Demon Slayer</li>
+                <li>My Hero Academia</li>
+            </ul>
+        </section>
+        <section id="rpg">
+            <h2>Sobre RPG</h2>
+            <p>RPG, ou Role-Playing Game, é um gênero de jogo onde os participantes assumem papéis de personagens em um cenário fictício. Os jogadores colaboram para criar narrativas, resolver desafios e progredir através de histórias envolventes. Exemplos populares de RPG incluem "Dungeons & Dragons", "Pathfinder", e muitos jogos de videogame como "Final Fantasy" e "The Witcher".</p>
+        </section>
+    </div>
+</body>
+</html>
